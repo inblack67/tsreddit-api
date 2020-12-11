@@ -5,5 +5,6 @@ declare namespace NodeJS {
     PORT: string;
     SESSION_SECRET: string;
     CLIENT_URL: string;
+    COOKIE_NAME: string;
   }
 }

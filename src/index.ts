@@ -60,10 +60,10 @@ const main = async () =>
             saveUninitialized: false, // dont save until the cookie is generated
             cookie: {
                 httpOnly: true,
-                sameSite: 'strict',
+                sameSite: 'lax',
                 secure: isProd(),
                 maxAge: 1000 * 60 * 60 * 24, // 1 day
-                domain: isProd() ? '.vercel.app' : undefined
+                domain: isProd() ? '.tsreddit.tk' : undefined
             },
         } ),
     );
