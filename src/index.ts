@@ -60,7 +60,7 @@ const main = async () =>
             saveUninitialized: false, // dont save until the cookie is generated
             cookie: {
                 httpOnly: true,
-                sameSite: 'lax',
+                sameSite: 'strict',
                 secure: isProd(),
                 maxAge: 1000 * 60 * 60 * 24, // 1 day
                 domain: isProd() ? '.vercel.app' : undefined
