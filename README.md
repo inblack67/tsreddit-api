@@ -1,4 +1,4 @@
-# IntelliJS
+# tsreddit
 
 - Another social media clone.
 
@@ -23,3 +23,7 @@
     - Redis
     - Cache
     - Materialize
+    - Docker
+    - NGINX
+
+- Deployed to [DigitialOcean](http://tsreddit-api.tsreddit.tk) and [Vercel](https://prod.tsreddit.tk)
